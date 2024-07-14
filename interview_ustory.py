@@ -31,7 +31,7 @@ while cust_response == False:
   print("------------------------------------------------------------------------------------------------")
   print("Please input the information for your flight details below.")
   dept_time = time_convert(input("Departure Time (HH:MM): "))
-  arrv_time = time_convert(input("Estimated Arrival time (HH:MM): "))
+  arrv_time = time_convert(input("Estimated Arrival Time (HH:MM): "))
   print("Potential Airports (Select yours)")
   for zones in airport_data:
     print(zones[0])
